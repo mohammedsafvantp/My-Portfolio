@@ -1,0 +1,85 @@
+import { Project } from "../types";
+
+
+export const projects: Project[] = [
+    {
+        title: 'E-commerce Platform',
+        description: 'A full-stack e-commerce platform built with React.js, JavaScript, and Bootstrap.',
+        technologies: ['React.js', 'Redux', 'Bootstrap', 'JavaScript'],
+        githubLink: 'https://github.com/mohammedsafvantp/shopping',
+        demoLink: 'https://shopping-taupe-rho.vercel.app',
+        image: '/projects/e-commerce-website.png',
+      },
+      {
+        title: 'Media Player',
+        description: 'A collaborative Media Application application with real-time updates.',
+        technologies: ['React.js', 'JavaScript', 'BootStrap'],
+        githubLink: 'https://github.com/mohammedsafvantp/Media-Player',
+        demoLink: 'https://media-player-mu-ivory.vercel.app',
+        image: '/projects/03_Dj_Rainflow.avif',
+      },
+      {
+        title: 'Event Management System',
+        description: 'A Event Management System creates a digital platform to event planning, booking',
+        technologies: ['React.js', 'Tailwind CSS', 'JavaScript', 'Material UI','MongoDB','Node.js'],
+        githubLink: 'https://github.com/mohammedsafvantp/event-management-client',
+        demoLink: 'https://event-management-client-ruddy.vercel.app/',
+        image: '/projects/screenshot.webp',
+      },
+      {
+        title: 'Project Fair',
+        description: 'A Project adding platform with user authentication using JWT',
+        technologies: ['React.js', 'JavaScript', 'BootStrap', 'MongoDB', 'Node.js'],
+        githubLink: 'https://project-fair-client-vert.vercel.app',
+        demoLink: 'https://project-fair-client-vert.vercel.app',
+        image: '/projects/blog-website.jpeg',
+      },
+      {
+        title: 'Weather App',
+        description: 'A weather application that provides real-time weather updates.',
+        technologies: ['Javascript', 'BootStrap'],
+        githubLink: 'https://github.com/mohammedsafvantp/weather',
+        demoLink: 'https://weather-gilt-eta-32.vercel.app',
+        image: '/projects/weather-app.png',
+      },
+      {
+        title: 'Calculator Application',
+        description: 'A real-time chat application using WebSocket technology.',
+        technologies: ['Javascript', 'HTML/CSS'],
+        githubLink: 'https://github.com/mohammedsafvantp/calculator',
+        demoLink: 'https://calculator-nine-pi-45.vercel.app',
+        image: '/projects/579ed270-9231-4782-830d-bcca23f15d69-cover.png',
+      },
+      {
+        title: 'Recipe Finder',
+        description: 'A recipe search application using the Edamam API.',
+        technologies: ['Angular', 'TypeScript', 'MongoDB', 'Node.js'],
+        githubLink: 'https://github.com/mohammedsafvantp/Cookpedia-Client',
+        demoLink: 'https://cookpedia-client-six.vercel.app',
+        image: '/projects/original-79cc49bb706166bd16df73855acb0512.webp',
+      },
+      {
+        title: 'Expense Tracker',
+        description: 'A personal finance tracker to manage expenses and income.',
+        technologies: ['React', 'JavaScript', 'BootStrap'],
+        githubLink: 'https://github.com/mohammedsafvantp/simple-interest',
+        demoLink: 'https://simple-interest-phi-ten.vercel.app',
+        image: '/projects/Screenshot-357-1.png',
+      },
+       {
+        title: 'Digital Clock',
+        description: 'A Digital Clock Live Time show',
+        technologies: [ 'JavaScript', 'BootStrap'],
+        githubLink: 'https://github.com/mohammedsafvantp/simple-interest',
+        demoLink: 'https://simple-interest-phi-ten.vercel.app',
+        image: '/projects/01_ticker.avif',
+      },
+      {
+        title: 'Portfolio Website',
+        description: 'My personal portfolio website showcasing my projects and skills.',
+        technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
+        githubLink: 'https://github.com/mohammedsafvantp/ProjectFair-Client',
+        demoLink: '',
+        image: '/projects/portfolio-website.jpg',
+      }
+  ];
