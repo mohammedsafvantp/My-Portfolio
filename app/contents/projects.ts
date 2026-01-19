@@ -78,7 +78,7 @@ export const projects: Project[] = [
         title: 'Portfolio Website',
         description: 'My personal portfolio website showcasing my projects and skills.',
         technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
-        githubLink: 'https://github.com/mohammedsafvantp/ProjectFair-Client',
+        githubLink: 'https://github.com/mohammedsafvantp/My-Portfolio',
         demoLink: '',
         image: '/projects/portfolio-website.jpg',
       }
