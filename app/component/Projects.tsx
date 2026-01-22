@@ -15,7 +15,7 @@ const Projects = () => {
 <motion.div variants={staggerContainer} initial="initial"  animate="animate" className='grid grid-cols-1 md:grid-cols-3 gap-8 '>
     {
         projects.map((project)=>(
-          <motion.article variants={fadeInUp}  key={project.title} className=' bg-gray-800 dark:bg-dark/50 rounded-lg shadow-md p-6'  {...cardHoverSmall}>
+          <article  key={project.title} className=' bg-gray-800 dark:bg-dark/50 rounded-lg shadow-md p-6'  {...cardHoverSmall}>
             <div className='relative aspect-video mb-4 rounded-lg overflow-hidden' 
             >
                 <Image src={project.image} fill alt={project.title}  className='object-cover '  sizes='(max-width:768px) 100vw,(max-width:1200px) 50vw, 33vw'  />
@@ -47,7 +47,7 @@ const Projects = () => {
                 <FaExternalLinkAlt className='w-4 h-4'/><span>Live Demo</span>
                 </motion.a>
             </motion.div>
-            </motion.article>
+            </article>
         ))
     }
 </motion.div>

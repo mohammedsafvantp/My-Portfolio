@@ -22,7 +22,7 @@ const projec = () => {
         animate="animate" className='grid grid-cols-1 md:grid-cols-3 gap-8 '>
             {
                 projects.map((project)=>(
-                  <motion.article  
+                  <article  
             {...cardHoverSmall} key={project.title} className=' bg-gray-800 dark:bg-dark/50 rounded-lg shadow-md p-6'>
                     <motion.div  whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }} className='relative aspect-video mb-4 rounded-lg overflow-hidden'>
@@ -55,7 +55,7 @@ const projec = () => {
                         <FaExternalLinkAlt className='w-4 h-4'/><span>Live Demo</span>
                         </motion.a>
                     </motion.div>
-                    </motion.article>
+                    </article>
                 ))
             }
         </motion.div>

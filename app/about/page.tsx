@@ -20,14 +20,12 @@ const about = () => {
         </motion.section>
         <motion.section {...fadeIn}
         transition={{ delay: 0.2 }} className='mb-16'>
-         <motion.h2 variants={staggerContainer}
-          initial="initial"
-          animate="animate" className='section-title'>Skills</motion.h2>
+         <motion.h2 {...fadeInUp} className='section-title'>Skills</motion.h2>
          <motion.div variants={staggerContainer}
           initial="initial"
           animate="animate"  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-          <motion.div  
-            {...cardHover} className=' bg-gray-800 dark:bg-dark/50 p-6 rounded-lg shadow-md hover:shadow-lg flex flex-col  duration-300'>
+          <div  
+            {...cardHoverSmall}  className=' bg-gray-800 dark:bg-dark/50 p-6 rounded-lg shadow-md  flex flex-col '>
             <FaCode className='h-8 w-8 text-primary mb-4'/>
             <h3 className='text-xl font-semibold mb-2'>Frontend</h3>
             <ul className='text-secondary space-y-2'>
@@ -37,10 +35,10 @@ const about = () => {
                 <li>BootStrap</li>
                 <li>HTML5 / CSS</li>
             </ul>
-          </motion.div>
+          </div>
 
-           <motion.div  
-            {...cardHover} className=' bg-gray-800 dark:bg-dark/50 p-6 rounded-lg shadow-md hover:shadow-lg flex flex-col  duration-300 '>
+           <div  
+            {...cardHover}  className=' bg-gray-800 dark:bg-dark/50 p-6 rounded-lg shadow-md  flex flex-col   '>
             <FaLaptopCode className='h-8 w-8 text-primary mb-4'/>
             <h3 className='text-xl font-semibold mb-2'>Backend</h3>
             <ul className='text-secondary space-y-2'>
@@ -50,9 +48,9 @@ const about = () => {
                 <li>Postman</li>
                 <li>SQL</li>
             </ul>
-          </motion.div>
-            <motion.div 
-            {...cardHover} className=' bg-gray-800 dark:bg-dark/50 p-6 rounded-lg shadow-md hover:shadow-lg flex flex-col  duration-300 '>
+          </div>
+            <div 
+            {...cardHover}  className=' bg-gray-800 dark:bg-dark/50 p-6 rounded-lg shadow-md flex flex-col  d '>
             <FaGraduationCap className='h-8 w-8 text-primary mb-4'/>
             <h3 className='text-xl font-semibold mb-2'>Tools & Others</h3>
             <ul className='text-secondary space-y-2'>
@@ -62,7 +60,7 @@ const about = () => {
                 <li>Render</li>
                 <li>React Toastify</li>
             </ul>
-          </motion.div>
+          </div>
          </motion.div>
         </motion.section>
         <motion.section   {...fadeIn}
@@ -71,7 +69,7 @@ const about = () => {
             <motion.div  variants={staggerContainer}
           initial="initial"
           animate="animate" className='max-w-3xl  max-auto space-y-8  '>
-               <motion.div  
+               <div  
             {...cardHoverSmall} className=' bg-gray-800 dark:bg-dark/50 p-6 rounded-lg shadow-md '>
                 <h3 className='text-xl font-semibold mb-2 '>ME(A)RN Stack Developer Intern</h3>
                 <p className='text-primary mb-2'>Luminar Technolab • May 2025 - Dec 2025</p>
@@ -80,7 +78,7 @@ const about = () => {
                     <li>Worked with Node,React,Angular,JavaScript,Typescript</li>
                     <li>Followed best practices in component-based architecture and responsive UI design</li>
                 </ul>
-               </motion.div>
+               </div>
             </motion.div>
             
         </motion.section>
@@ -90,12 +88,12 @@ const about = () => {
             <motion.div  variants={staggerContainer}
           initial="initial"
           animate="animate" className='max-w-3xl max-auto space-y-8 '>
-               <motion.div  
+               <div  
             {...cardHoverSmall} className=' bg-gray-800 dark:bg-dark/50 p-6 rounded-lg shadow-md '>
                 <h3 className='text-xl font-semibold mb-2 '>Bachelor of Technology in Computer Science</h3>
                 <p className='text-primary mb-2'>APJ Abdul Kalam Technological University • 2021 - 2025</p>
                 <p className='text-secondary'>Graduate with Honors. Focused on software engineering and web development</p>
-               </motion.div>
+               </div>
             </motion.div>
             
         </motion.section>

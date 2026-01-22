@@ -17,7 +17,7 @@ const page = () => {
         animate="animate" className='grid gid-cols-1 md:grid-cols-3 gap-8'>
                {
                    blogs.map((blog)=>(
-                       <motion.article   
+                       <article   
             {...cardHoverSmall} key={blog.slug} className=' bg-gray-800  dark:bg-dark/50 rounded-lg shadow-md p-6'>
                            <Link href={`/blogs/${blog.slug}`} className='flex flex-col gap-4'>
                            <motion.h2  whileHover={{ x: 5 }}
@@ -38,7 +38,7 @@ const page = () => {
                            {blog.readTime} min read
                        </motion.span>
                    </motion.div>
-                       </motion.article>
+                       </article>
                    ))
                }
            </motion.div>
