@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { FaCode, FaLaptop, FaLaptopCode } from 'react-icons/fa'
+import { FaCode, FaGraduationCap, FaLaptop, FaLaptopCode } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { 
   fadeInUp, 
@@ -53,7 +53,7 @@ const about = () => {
           </motion.div>
             <motion.div 
             {...cardHover} className=' bg-gray-800 dark:bg-dark/50 p-6 rounded-lg shadow-md hover:shadow-lg flex flex-col  duration-300 '>
-            <FaLaptopCode className='h-8 w-8 text-primary mb-4'/>
+            <FaGraduationCap className='h-8 w-8 text-primary mb-4'/>
             <h3 className='text-xl font-semibold mb-2'>Tools & Others</h3>
             <ul className='text-secondary space-y-2'>
                 <li>Git/GitHub</li>

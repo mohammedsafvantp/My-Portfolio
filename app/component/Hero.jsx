@@ -39,6 +39,8 @@ const Hero = () => {
     <motion.a {...fadeInUp} transition={{delay: 0.5}} whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }} href="/contact" className='bg-gray-500 text-gray-800 inline-block w-fit md:w-auto px-8 py-3 rounded transition-colors hover:text-white hover:bg-gray-800'>Contact Me</motion.a>
 
+ <motion.a {...fadeInUp} transition={{delay: 0.5}} whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }} href="/Mohammed Safvan TP resume.pdf" className='bg-green-500 text-gray-800 inline-block w-fit md:w-auto px-8 py-3 rounded transition-colors hover:text-white hover:bg-white-800'>Resume</motion.a>
 </motion.div>
         </div>
     </section>
